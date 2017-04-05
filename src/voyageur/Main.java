@@ -45,7 +45,7 @@ public class Main
 	 *            Toutes ces méthodes peuvent être appliquées ou non indépendemment. */
 	public static void calcul(int graphes, int sommets, boolean r, boolean g, boolean k, boolean m)
 	{
-		window.addText("Graphes: " + graphes + ", Sommets: " + sommets);
+		window.addText("\n\nGraphes: " + graphes + ", Sommets: " + sommets);
 
 		ArrayList<Double> aleatoire = new ArrayList<Double>(), rTimes = new ArrayList<Double>();
 		ArrayList<Double> glouton = new ArrayList<Double>(), gTimes = new ArrayList<Double>();

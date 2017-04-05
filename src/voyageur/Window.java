@@ -85,7 +85,7 @@ public class Window extends JFrame implements ActionListener
 
 	private void doAlgorithm()
 	{
-		Main.previousMain(Integer.parseInt(this.entryGraphe.getText()), Integer.parseInt(this.entrySommets.getText()), this.random.isSelected(), this.glouton.isSelected(), this.kruskal.isSelected(), this.m2opt.isSelected());
+		Main.calcul(Integer.parseInt(this.entryGraphe.getText()), Integer.parseInt(this.entrySommets.getText()), this.random.isSelected(), this.glouton.isSelected(), this.kruskal.isSelected(), this.m2opt.isSelected());
 	}
 
 }

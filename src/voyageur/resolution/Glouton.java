@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import voyageur.model.Point;
 import voyageur.model.TSP;
 
+/** Une méthode qui compare les distances de tous les points restants pour prendre le plus proche. */
 public class Glouton extends Methode
 {
 

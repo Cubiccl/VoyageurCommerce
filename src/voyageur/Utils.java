@@ -8,6 +8,9 @@ import voyageur.model.Point;
 public class Utils
 {
 
+	/** Crée un ensemble de points aléatoires, d'abscisse et ordonnée entre 0 et 1.
+	 * 
+	 * @param nbPoints - Le nombre de points à créer. */
 	public static Set<Point> creerPoints(int nbPoints)
 	{
 		Set<Point> points = new HashSet<Point>();

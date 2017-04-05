@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import voyageur.model.Point;
 import voyageur.model.TSP;
 
+/** Une méthode qui choisit tous les points aléatoirement. */
 public class Aleatoire extends Methode
 {
 
